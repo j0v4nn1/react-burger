@@ -1,0 +1,24 @@
+.order__image-invisible-ingredients-counter {
+  position: absolute;
+  color: #F2F2F3;
+}
+
+.order__images-item {
+  align-items: center;
+  display: -webkit-flex;
+  display: flex;
+  height: 64px;
+  justify-content: center;
+  position: relative;
+  width: 64px;
+  margin-left: -14px;
+}
+
+.order__image {
+  background-color: #000;
+  border: 2px solid #801AB2;
+  border-radius: 50%;
+  height: 100%;
+  object-fit: cover;
+  width: 100%;
+}

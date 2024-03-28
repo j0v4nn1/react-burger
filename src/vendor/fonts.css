@@ -1,0 +1,12 @@
+@font-face {
+  src: url(../fonts/JetBrainsMono-Regular.woff2) format('woff2'),
+  url(../fonts/JetBrainsMonoNL-Regular.ttf) format('ttf');
+  font-family: 'Jet Brains Mono';
+  font-weight: 400;
+}
+@font-face {
+  src: url(../fonts/JetBrainsMono-Bold.woff2) format('woff2'),
+  url(../fonts/JetBrainsMono-Bold.ttf) format('ttf');
+  font-family: 'Jet Brains Mono';
+  font-weight: 700;
+}

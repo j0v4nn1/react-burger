@@ -1,0 +1,55 @@
+.ingredients {
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 600px;
+}
+
+.title {
+  margin: 0;
+  font-size: 36px;
+}
+
+.list {
+  padding: 0 16px 0;
+  margin: 0;
+  list-style: none;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 24px;
+}
+
+.link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.item {
+  cursor: pointer;
+  position: relative;
+  padding: 24px 0 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.image {
+  display: block;
+  padding: 0 16px 4px;
+}
+
+.wrapper {
+  margin-top: 40px;
+  overflow: hidden;
+  overflow-y: scroll;
+  max-height: calc(100vh - (318px + 42px));
+}
+
+.wrapper::-webkit-scrollbar {
+  background: #2F2F37;
+  width: 8px;
+  margin-bottom: 20px;
+}
+
+.wrapper::-webkit-scrollbar-thumb {
+  background: #8585AD;
+}

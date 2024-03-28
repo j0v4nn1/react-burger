@@ -1,0 +1,20 @@
+.profile__orders {
+  box-sizing: border-box;
+  overflow: hidden;
+  overflow-y: scroll;
+  max-height: calc(100vh - 140px);
+  width: 100%;
+  list-style: none;
+  padding: 0 8px 0 0;
+  margin: 0;
+}
+
+.profile__orders::-webkit-scrollbar {
+  background: #2F2F37;
+  width: 8px;
+  margin-bottom: 20px;
+}
+
+.profile__orders::-webkit-scrollbar-thumb {
+  background: #8585AD;
+}

@@ -1,0 +1,56 @@
+.burgerConstructor {
+  margin-top: 44px;
+  width: 100%;
+  max-width: 600px;
+  max-height: calc(100vh - 88px);
+}
+
+.mainList {
+  outline: 1px dashed var(--colors-interface-accent);
+  min-height: calc(100vh - (543px - 160px - 32px));
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  list-style: none;
+  padding: 0;
+  margin: 16px 0 40px;
+}
+
+@media (min-height: 1770px) {
+  .mainList {
+    min-height: calc(100vh - (596px - 160px - 32px));
+  }
+}
+
+.list {
+  overflow: hidden;
+  overflow-y: scroll;
+  max-height: calc(100vh - 543px);
+  padding: 0 8px 0 0;
+}
+
+.list::-webkit-scrollbar {
+  background: #2f2f37;
+  width: 8px;
+  margin-bottom: 20px;
+}
+
+.list::-webkit-scrollbar-thumb {
+  background: #8585ad;
+}
+
+.bottom {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.svgWrapper {
+  width: 36px;
+  height: 36px;
+}
+
+.svgWrapper svg {
+  width: 100%;
+  height: 100%;
+}

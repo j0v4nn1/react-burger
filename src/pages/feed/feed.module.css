@@ -1,0 +1,63 @@
+.feed {
+  width: 100%;
+}
+
+.feed__orders {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0 60px;
+}
+
+.feed__orders-list {
+  overflow: hidden;
+  overflow-y: scroll;
+  max-height: calc(100vh - 210px);
+  padding: 0 8px 0 0;
+  margin: 0;
+  list-style: none;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.feed__orders-list::-webkit-scrollbar {
+  background: #2F2F37;
+  width: 8px;
+  margin-bottom: 20px;
+}
+
+.feed__orders-list::-webkit-scrollbar-thumb {
+  background: #8585AD;
+}
+
+.feed__orders-information {
+  max-width: 580px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.feed__orders-ready,
+.feed__orders-pending {
+  width: 100%;
+  max-width: 280px;
+  display: flex;
+  flex-direction: column;
+}
+
+.feed__orders-ready-list,
+.feed__orders-pending-list {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.feed__orders-ready-list-item {
+  color: #00CCCC;
+  margin-bottom: 8px;
+}
+
+.feed__orders-ready-all-number,
+ .feed__orders-ready-today-number {
+  text-shadow: 0 0 16px rgba(51, 51, 255, 0.25), 0 0 8px rgba(51, 51, 255, 0.25), 0 4px 32px rgba(51, 51, 255, 0.5);
+}

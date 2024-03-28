@@ -1,0 +1,50 @@
+.header {
+  box-sizing: border-box;
+  background-color: var(--background);
+  width: 100%;
+}
+
+.wrapper {
+  margin: 0 auto;
+  max-width: 1250px;
+  padding: 16px 15px;
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+}
+
+.menu {
+  width: 100%;
+  max-width: 785px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.list {
+  padding: 0;
+  width: 100%;
+  max-width: 383px;
+  justify-content: space-between;
+  display: flex;
+  list-style: none;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+}
+
+.link {
+  padding-left: 8px;
+  text-decoration: none;
+  color: var(--text-inactive-color);
+}
+
+.account {
+  display: flex;
+  align-items: center;
+}
+
+.activeLink {
+  color: var(--text-primary-color)
+}

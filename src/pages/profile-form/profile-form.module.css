@@ -1,0 +1,12 @@
+.profile__form {
+  margin-top: 80px;
+}
+
+.buttons {
+  display: flex;
+  align-self: flex-end;
+}
+
+::-ms-reveal {
+  display: none;
+}
